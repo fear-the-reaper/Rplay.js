@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	background: linear-gradient(to right, red, yellow);
+}
+
+
+
+h1 {
+	/*text-align: center;*/
+	margin-bottom: 50px;
+	font-size: 40px;
+	color: red;
+}
+
+button {
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+
+audio {
+	display: none;
+}
