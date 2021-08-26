@@ -1,9 +1,9 @@
-// rPlay.js:
-// getting a random number between 0-3:
-const getRandNumMusic = () => Math.floor(Math.random() * (4 - 0) + 0);
+// rPlay.js
 // getting the audio elements:
 const body = document.querySelector('body');
 const audios = document.querySelectorAll('audio');
+// getting a random number between 0-3:
+const getRandNumMusic = () => Math.floor(Math.random() * audios.length );
 console.log(audios);
 // getting the button and making the random playing element:
 let clickCounter = 1;
